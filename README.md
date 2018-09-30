@@ -65,7 +65,7 @@ tests are passing on your platform.
 To install from Git, clone this repository by running:
 
 ```
-git clone --recursive https://github.com/fgsch/libvmod-geoip2
+git clone --branch oldstable --recursive https://github.com/fgsch/libvmod-geoip2
 ```
 
 And then run `./autogen.sh` followed by the instructions above for
