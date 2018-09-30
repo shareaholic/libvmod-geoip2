@@ -47,6 +47,7 @@ save_CFLAGS="$CFLAGS"
 CFLAGS="$VMOD_INCLUDES"
 AC_COMPILE_IFELSE(
   [AC_LANG_PROGRAM([[
+#include <vdef.h>
 #include <vrt.h>
 #if VRT_MAJOR_VERSION < 5
 #error unsupported

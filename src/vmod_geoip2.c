@@ -27,19 +27,18 @@
  */
 
 #include <stdlib.h>
+#include <string.h>
 
 #include <maxminddb.h>
 
 #include "cache/cache.h"
 
+#if !defined(VRT_MAJOR_VERSION)
 #include "vrt.h"
+#endif
 #include "vsa.h"
 
 #include "vcc_if.h"
-
-#ifndef VRT_CTX
-#define VRT_CTX		const struct vrt_ctx *ctx
-#endif
 
 struct vmod_geoip2_geoip2 {
 	unsigned		magic;
