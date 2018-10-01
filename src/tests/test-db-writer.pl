@@ -14,7 +14,7 @@ my $tree = MaxMind::DB::Writer::Tree->new(
 $tree->insert_network(
     '127.0.0.1/8',
     {
-        long_string => 'thequickbrownfoxjumpsoverthelazydog1234567890',
+        long_string => 'thequickbrownfoxjumpsoverthelazydog12345678900987654321godyzalehtrevospmujxofnworbkciuqehtthequickbrownfoxjumpsoverthelazydog12345678900987654321godyzalehtrevospmujxofnworbkciuqeht',
     },
 );
 
